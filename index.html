@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Data Analyst - Portfolio Projects by Jason C. Ng</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+
+            /* Background image CSS */
+        #bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+           
+            z-index: -1;
+            background-size: cover;
+            background-position: center;
+            }
+
+ /* Mobile optimization using media queries */
+ @media (max-width: 768px) {
+            #header h1 {
+                font-size: 24px; /* Adjust the font size for mobile */
+            }
+            p {
+                text-align: center;
+                background-color: rgb(5, 98, 121);
+                padding: 10px; /* Increase padding for better touch experience */
+            }
+            /* Adjust margins and padding for mobile optimization */
+            #header nav li {
+                margin: 0 3px; /* Reduce margin for smaller screens */
+            }
+            .tooltip .tooltiptext {
+                margin: 3px; /* Reduce margin for smaller screens */
+            }
+            .tooltip .tooltiptext img {
+                width: 30px; /* Adjust image size for mobile */
+            }
+        }
+
+        #header nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            padding: 0;
+        }
+
+        #header nav li {
+            margin: 0 5px;
+        }
+
+		p {
+			text-align: center;
+			background-color:rgb(5, 98, 121);
+		}
+
+        /* Custom Tooltip CSS */
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+		}
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 270px;
+			background-color:rgba(5, 98, 121, 0.712);
+            color: #fff;
+            text-align: center;
+			border-radius: 10px;
+			padding: 10px;
+			margin: 5px;
+			position:absolute;
+			text-align:left;
+            z-index: 1;
+            top: 70%; /* Position above the image */
+            left: 50%;
+			transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 1s;
+			box-shadow:0 10px 10px #0808087e;
+			line-height: 3em;
+	    }
+
+             
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+		}
+        
+
+	</style>
+	
+</head>
+<body class="is-preload">
+    <div id="wrapper">
+        <div id="bg"></div>
+        <div id="overlay"></div>
+        <div id="main">
+            <!-- Header -->
+            <header id="header">
+                <h1>Jason C Ng</h1>
+                <p>Data Analyst &nbsp📈&nbsp; Portfolio Projects &nbsp;| &nbsp;SQL&nbsp;&bull;&nbsp;Excel&nbsp;&bull;&nbsp;Tableau&nbsp;&bull;&nbsp;PowerBI&nbsp;&bull;&nbsp;Python</p>
+                <nav>
+                    <ul>
+                        <li>
+                            <!-- Tooltip for SQL -->
+                            <div class="tooltip">
+                                <a href="#" onclick="window.open('https://github.com/Jac1an/PortfolioProjects/blob/main/Portfolio%20Project%20-%20Scripts%20-%20Data%20Cleaning.sql');" target="_blank">
+                                    <img title="SQL Projects" alt="SQL" src=".\assets\css\images\sql.png" width="70px">
+                                </a>
+                                <span class="tooltiptext">
+                                    <a href="https://github.com/Jac1an/PortfolioProjects/blob/main/Portfolio%20Project%20-%20Scripts%20-%20COVID%20data.sql" target="_blank"><img title="COVID-19 Data Script" alt="COVID-19 Data Script" src=".\assets\css\images\covid-data.png" width="40px"> COVID-19 Data Script</a>
+                                    <a href="https://github.com/Jac1an/PortfolioProjects/blob/main/Portfolio%20Project%20-%20Scripts%20-%20Data%20Cleaning.sql" target="_blank"><img title="Data Cleaning Script" alt="Data Cleaning Script" src=".\assets\css\images\data-cleaning.png" width="40px"> Data Cleaning Script</a>
+							    </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tooltip">
+                            <a href="#" onclick="window.open('https://github.com/Jac1an/PortfolioProjects/blob/main/Portfolio%20Project%20-%20Scripts%20-%20Data%20Cleaning.sql');" target="_blank">
+                                <img title="Excel Projects" alt="SQL" src=".\assets\css\images\excel.png" width="70px">
+                            </a>
+                            <span class="tooltiptext">
+                                <a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Jac1an/PortfolioProjects/blob/main/Portfolio%20Project%20-%20Excel%20Project.xlsx" target="_blank"><img title="Bike Sales" alt="Bike Sales" src=".\assets\css\images\bike.png" width="40px"> Bike Sales Dashboard</a>
+                                <a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Jac1an/PortfolioProjects/blob/main/Portfolio%20Project%20-%20Excel%20Project%202.xlsx" target="_blank"><img title="Coffee Sales" alt="Coffee Sales" src=".\assets\css\images\coffee.png" width="40px"> Coffee Sales Dashboard</a>
+                            </span>
+                        </div>
+                        </li>
+                        <!-- <li><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Jac1an/PortfolioProjects/blob/6e282f773f2438e544ccaecf9d3a91dc4c6a155c/Portfolio%20Project%20-%20Excel%20Project.xlsx" target="_blank"><img title="Excel Projects" alt="Excel" src=".\assets\css\images\excel.png" width="70px"></a></li> -->
+                        <li><a href="https://public.tableau.com/app/profile/jason.ng2825" target="_blank"><img title="Tableau Dashboards" alt="Tableau" src=".\assets\css\images\tableau.png" width="70px"></a></li>
+                        <li><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Jac1an/PortfolioProjects/blob/6e282f773f2438e544ccaecf9d3a91dc4c6a155c/Portfolio%20Project%20-%20PowerBI%20Project.pbix" target="_blank"><img title="PowerBI Dashboards" alt="PowerBI" src=".\assets\css\images\powerbi.png" width="70px"></a></li>
+                        <li>
+                            <!-- <a href="#"><img title="Python" alt="Python" src=".\assets\css\images\python.png" width="70px"></a> -->
+                            <div class="tooltip">
+                                <a href="#" onclick="window.open('https://github.com/Jac1an/PortfolioProjects/blob/main/Portfolio%20Project%20-%20Scripts%20-%20Data%20Cleaning.sql');" target="_blank">
+                                    <img title="Python" alt="Python" src=".\assets\css\images\python.png" width="70px">
+                                </a>
+                                <span class="tooltiptext">
+                                    <a href="https://github.com/Jac1an/PortfolioProjects/blob/main/Portfolio%20Project%20-%20Python%20-%20Automatic%20File%20Sorter.ipynb" target="_blank"><img title="Automatic File Sorter" alt="Automatic File Sorter" src=".\assets\css\images\file-sorter.png" width="40px"> Automatic File Sorter</a>
+                                    <a href="https://github.com/Jac1an/PortfolioProjects/blob/main/Portfolio%20Project%20-%20Python%20-%20BMI%20Calculator.ipynb" target="_blank"><img title="BMI Calculator" alt="BMI Calculator" src=".\assets\css\images\bmi-calc.png" width="40px"> BMI Calculator</a>
+                                    <a href="https://github.com/Jac1an/PortfolioProjects/blob/main/Portfolio%20Project%20-%20Python%20-%20Scraping%20Data%20from%20a%20Real%20Website%20%2B%20Pandas.ipynb" target="_blank"><img title="Website Data Scraping" alt="Website Data Scraping" src=".\assets\css\images\web-scraping.png" width="40px"> Website Data Scraping</a>
+							    </span>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <span class="copyright">&copy; 2023 Jac1an | Github Pages.&nbsp;
+					<a href="https://www.linkedin.com/in/jac1an/" class="icon brands alt fa-linkedin"> LinkedIn</a>
+				</span>
+            </footer>
+        </div>
+    </div>
+    <script>
+        window.onload = function() { document.body.classList.remove('is-preload'); }
+        window.ontouchmove = function() { return false; }
+        window.onorientationchange = function() { document.body.scrollTop = 0; }
+    </script>
+</body>
+</html>
